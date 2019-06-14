@@ -1,0 +1,22 @@
+{
+  "name": "NodeMobile",
+  "version": "0.1.8",
+  "summary": "Node.js for Mobile Apps",
+  "description": "[Node.js for Mobile Apps](https://code.janeasystems.com/nodejs-mobile) - A toolkit for integrating Node.js into mobile applications.",
+  "homepage": "https://code.janeasystems.com/nodejs-mobile",
+  "license": {
+    "type": "Mixed",
+    "file": "LICENSE"
+  },
+  "documentation_url": "https://code.janeasystems.com/nodejs-mobile/getting-started-ios",
+  "authors": "Janea Systems",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/janeasystems/nodejs-mobile.git",
+    "tag": "nodejs-mobile-v0.1.8"
+  },
+  "vendored_frameworks": "out_ios/Release-universal/NodeMobile.framework",
+  "prepare_command": "tools/ios_framework_prepare.sh"
+}

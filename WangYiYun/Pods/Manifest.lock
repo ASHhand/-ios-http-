@@ -1,0 +1,21 @@
+PODS:
+  - NodeMobile (0.1.8)
+
+DEPENDENCIES:
+  - NodeMobile (from `https://github.com/janeasystems/nodejs-mobile.git`)
+
+EXTERNAL SOURCES:
+  NodeMobile:
+    :git: https://github.com/janeasystems/nodejs-mobile.git
+
+CHECKOUT OPTIONS:
+  NodeMobile:
+    :commit: 2101f2096d59d2a081f64da2f10fd7385222ac8a
+    :git: https://github.com/janeasystems/nodejs-mobile.git
+
+SPEC CHECKSUMS:
+  NodeMobile: cb332628599d35759769bdb6b1501b17b5f1f287
+
+PODFILE CHECKSUM: ef7aa6312d3bbb963a56bea2f124c9c91f668c3d
+
+COCOAPODS: 1.6.1
